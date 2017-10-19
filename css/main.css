@@ -1,0 +1,266 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+#container {
+  margin: 10px;
+}
+
+.red-box {
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+}
+
+.purple-box {
+  width: 150px;
+  height: 150px;
+  background-color: #800080;
+  position: relative;
+  top: 75px;
+  left: 75px;
+}
+
+.yellow-box {
+  width: 75px;
+  height: 75px;
+  background-color: #ffff00;
+}
+
+.blue-box {
+  width: 300px;
+  height: 300px;
+  margin: 15px 0;
+  background-color: #0000ff;
+}
+
+.black-box {
+  width: 75px;
+  height: 75px;
+  background-color: #000000;
+}
+
+.green-box {
+  width: 150px;
+  height: 150px;
+  background-color: #008000;
+  position: relative;
+  left: 75px;
+}
+
+.box_one {
+  width: 200px;
+	height: 200px;
+  background: #ee3e64;
+}
+
+.box_two {
+  width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+.box_three {
+  width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+.box_four {
+  width: 200px;
+  height: 200px;
+  background-color: #ebde52;
+}
+
+.examplea {
+  position: static;
+}
+
+.exampleb {
+  position: relative;
+}
+
+.examplec {
+  position: relative;
+  left: 200px;
+}
+
+.box_one.examplee {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box_two.examplee {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box_three.examplee {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.box_four.examplee {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.orange_box {
+  width: 40px;
+  height: 40px;
+  background-color: #f95b34;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.box_1.exampleg {
+  background-color: #44accf;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.box_2.exampleg {
+  background-color: #ff9c34;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.box_1.exampleh {
+  background: #ee3e64;
+  position: absolute;
+	top: 0;
+	right: 20%;
+	bottom: 0;
+	left: 0;
+}
+
+.box_2.exampleh {
+  background: #b7d84b;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 80%;
+}
+
+.box_two.exampleh2 {
+  position: absolute;
+  left: 100px;
+}
+
+.box_two.exampleh3 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+main, .fijado p {
+  width: 900px;
+  margin: 0 auto;
+}
+
+main p {
+  margin: 10px auto;
+}
+
+.fijado {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #b7d84b;
+  padding: 10px 0;
+}
+
+body.examplej {
+  background-color: #44accf;
+}
+
+nav {
+  height: 50px;
+  background-color: #b7d84b;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  border-right: 1px solid #91ab3b; 
+  line-height: 50px;
+  padding: 0 18px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+nav a:hover {
+  background-color: #91ab3b;
+}
+
+nav a:hover span {
+  color: #ff9c34;
+}
+
+nav.principal {
+  height: 100%;
+  overflow: hidden;
+  background: none;
+}
+
+nav.principal a {
+  display: block;
+  width: 105px;
+  border: none;
+  margin: 10px 10px;
+  background-color: #ff9c34;
+}
+
+nav.principal a:hover {
+  background-color: #F86A27;
+}
+
+#content {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px 250px 60px 20px;
+}
+
+aside {
+  background-color: #fa8366;
+  width: 250px;
+  height: 1062px;
+  position: absolute;
+  top: 150px;
+  right: 145px;
+  box-sizing: border-box;
+  border-top: 5px solid #f95b34;
+  padding: 0 20px;
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  background-color: #f36283;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 20px;
+  bottom: 0;
+  width: 900px;
+}
